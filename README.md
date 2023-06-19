@@ -15,5 +15,11 @@
 
 Подключить Telegram-бота с возможностью выбрать сложность (на нее отобразятся подборка из 10 первых задач) 
 
+
+pip install -r requirements.txt
+
+Создаем BD
+CREATE DATABASE codeforces;
+
 Для запуска CRONTAB "python scheduleCron.py"
 Для запуска Бота "python telegrambot.py"
